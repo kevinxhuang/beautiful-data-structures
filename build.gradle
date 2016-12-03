@@ -2,6 +2,10 @@ group = 'net.yidooo'
 version = '1.0-SNAPSHOT'
 
 subprojects {
+	repositories {
+		mavenCentral()
+	}
+
 	apply plugin: 'java'
 
 	sourceCompatibility=1.8
